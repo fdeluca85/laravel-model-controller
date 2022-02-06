@@ -1,0 +1,25 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
+    .card {
+        width: calc(100% / 5 - 10px);
+        margin: 20px 5px;
+        background-color: aqua;
+        img {
+            height: 200px;
+            width: 200px;
+            object-fit: none;
+            object-position: 100% 0;
+        }
+        h3 {
+            color: blanchedalmond;
+            font-size: 0.9em;
+            margin: 1em 0;
+        }
+    }
+}
