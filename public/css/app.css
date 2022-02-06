@@ -30,7 +30,11 @@ h1 {
 h2 {
   margin: 1em;
   text-align: center;
-  color: wheat;
+}
+
+h3 {
+  font-size: 0.9em;
+  padding: 1em 0;
 }
 
 .cards {
@@ -47,7 +51,7 @@ h2 {
 .cards .card {
   width: calc(20% - 20px);
   margin: 20px 10px;
-  background-color: #303030;
+  background-color: lightgray;
   padding: 1em;
   border-radius: 1em;
   box-shadow: 8px 8px 14px 6px rgba(17, 17, 17, 0.5);
@@ -57,15 +61,7 @@ h2 {
 }
 
 .cards .card:hover {
-  font-weight: bold;
-  color: blanchedalmond;
   cursor: pointer;
   transform: translatey(-10%);
-}
-
-.cards .card h3 {
-  color: blanchedalmond;
-  font-size: 0.9em;
-  margin: 1em 0;
 }
 
