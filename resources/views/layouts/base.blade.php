@@ -9,9 +9,13 @@
 </head>
 <body>
 
+    @include('partials.header')
+
     <main>
         @yield('pageContent')
     </main>
+
+    @include('partials.footer')
 
 </body>
 </html>
