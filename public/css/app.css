@@ -13,18 +13,19 @@
 }
 
 body {
-  background-color: #1c1c1c;
+  background-color: #2f4858;
 }
 
 body {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 h1 {
   margin: 1em;
   text-align: center;
-  color: wheat;
+  color: #c5fcef;
 }
 
 h2 {
@@ -41,6 +42,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   margin: 1em;
+  background-color: #4c687c;
+  padding: 2em;
+  border-radius: 1em;
 }
 
 .cards a {
@@ -50,8 +54,9 @@ h3 {
 
 .cards .card {
   width: calc(20% - 20px);
+  height: 20em;
   margin: 20px 10px;
-  background-color: lightgray;
+  background-color: #608c97;
   padding: 1em;
   border-radius: 1em;
   box-shadow: 8px 8px 14px 6px rgba(17, 17, 17, 0.5);

@@ -2,14 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
+    background-color: #4c687c;
+    padding: 2em;
+    border-radius: 1em;
+
     a {
         list-style: none;
         text-decoration: none;
     }
     .card {
         width: calc(100% / 5 - 20px);
+        height: 20em;
         margin: 20px 10px;
-        background-color: lightgray;
+        background-color: #608c97;
         padding: 1em;
         border-radius: 1em;
         box-shadow: 8px 8px 14px 6px rgba(17, 17, 17, 0.5);
